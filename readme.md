@@ -3,7 +3,7 @@
 * pip install -r requirements.txt
 * wget to download the edition of linux elasticsearch, the specific step could refer to the link below  
   * https://www.cnblogs.com/weibanggang/p/11589464.html
-* in /elastic_search to  execute "export_environment.sh" to set java environment
+* in /elastic_search to  execute "export_environment.sh" and "source export_environment.sh"to set java environment
 * in /elastic_search/elasticsearch-7.10.1-linux-x86_64/elasticsearch-7.10.1 execute "bin/elasticsearch" to start the server 
 * execute "curl http://localhost:9200" to check if you can see the "you know, for search" or you could execute "ss -tanl" to see 9200 port is listening
 
